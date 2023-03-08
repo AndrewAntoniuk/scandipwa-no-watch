@@ -1,6 +1,6 @@
 {
   "name": "disable-minimize",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "OSL-3.0",
   "dependencies": {
     "@tilework/mosaic-craco": "0.0.5"
