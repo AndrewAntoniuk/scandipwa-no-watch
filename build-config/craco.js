@@ -3,11 +3,17 @@
 module.exports = {
     plugin: {
         overrideWebpackConfig: ({ webpackConfig }) => {
-            webpackConfig.watchOptions.ignored = [
-                '**/node_modules'
-            ];
 
-            return webpackConfig;
+            const newWebpackConfig = {
+                ...webpackConfig,
+                watchOptions: {
+                    ignored: [
+                        '**/node_modules'
+                    ],
+                },
+            };
+
+            return newWebpackConfig;
         },
     },
 };

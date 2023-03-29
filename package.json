@@ -1,6 +1,6 @@
 {
   "name": "spwa-disable-watch",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "OSL-3.0",
   "dependencies": {
     "@tilework/mosaic-craco": "0.0.5"
