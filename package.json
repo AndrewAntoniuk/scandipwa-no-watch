@@ -20,5 +20,9 @@
   "keywords": [
     "webpack"
   ],
-  "author": "personal_it_jesus | Andrii Antoniuk"
+  "author": "personal_it_jesus | Andrii Antoniuk",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-personal:AndrewAntoniuk/scandipwa-no-watch.git"
+  }
 }
